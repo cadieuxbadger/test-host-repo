@@ -1,0 +1,122 @@
+
+h1 {
+    font-family: Atkinson-Hyperlegible;
+    padding: 1%;
+    background-color: #333333;
+    color: white !important;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+h2 {
+    font-family: Atkinson-Hyperlegible;
+    font-size: xx-large !important;
+    padding: 2%;
+}
+.personal-image {
+    border-radius: 5%;
+    border: 2px solid #333333;
+    width: 20vw;
+}
+
+.main-body {
+    background-color: #E3E7D3;
+    align-items: center;
+    text-align: center;
+    font-family: Atkinson-Hyperlegible;
+    font-size: large;
+}
+
+.lists {
+    font-family: Atkinson-Hyperlegible;
+    align-items: center;
+    text-align: center;
+    list-style-position: inside;
+    width: 35%;
+}
+.abt-me {
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    padding: 5%;
+    padding-top: 1%;
+}
+
+.left-container {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding-top: 1%;
+    padding-left: 1%;
+    height: 90%;
+}
+
+.main-container {
+    position: relative;
+    float: center;
+    width: 75%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.vines {
+    width: 30vw;
+    align-items: center;
+}
+
+.plant-table{
+    width: 65%;
+}
+
+p {
+    font-size: large;
+}
+
+li{
+    padding: 1%;
+    font-size: larger;
+}
+
+table{
+    font-family: Atkinson-Hyperlegible;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border: 2px solid #111111;
+    width: 80%;
+    color: #111111;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr td{
+    border: 2px solid #111111;
+    font-size: larger;
+    background-color: paleturquoise;
+    padding: 2%;
+}
+
+thead th {
+    padding: 2%;
+    background-color: 333333;
+    font-size: x-large;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border: 2px solid #111111;
+}
+
+a:link{
+    color: #111111;
+}
+
+a:hover{
+    color: #666666;
+}
+
+a:visited {
+    color: chocolate;
+}
+@font-face { font-family: Atkinson-Hyperlegible; 
+    src: url('assets/Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514/PrintFonts/Atkinson-Hyperlegible-Regular-102.otf'); 
+} 
